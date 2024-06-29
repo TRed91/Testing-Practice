@@ -1,5 +1,6 @@
-const { capitalize, reverse, calculator, caesarCipher } = require('./index');
-const analyzeArray = require("./analyzeArray")
+const { capitalize, reverse, calculator } = require('./index');
+const analyzeArray = require("./analyzeArray");
+const caesarCipher = require("./caesarCypher");
 
 test('capitalize "hello"', () => {
     expect(capitalize("hello")).toMatch("Hello");
